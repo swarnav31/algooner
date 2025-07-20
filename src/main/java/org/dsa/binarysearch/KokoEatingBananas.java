@@ -30,12 +30,4 @@ class KokoEatingBananas {
         }
         return hours <= h;
     }
-
-    public static void main(String[] args) {
-        KokoEatingBananas koko = new KokoEatingBananas();
-        int[] piles = {3, 6, 7, 11};
-        int h = 8;
-        int result = koko.minEatingSpeed(piles, h);
-        System.out.println("Minimum eating speed: " + result); // Output: 4
-    }
 }
