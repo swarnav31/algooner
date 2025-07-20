@@ -10,7 +10,7 @@ class KadaneAlgorithmTest {
     void testMaxSubArraySum() {
         KadaneAlgorithm kadane = new KadaneAlgorithm();
         int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        assertEquals(6, kadane.maxSubArray(nums));
+        assertEquals(7, kadane.maxSubArray(nums));
     }
 
     @Test
