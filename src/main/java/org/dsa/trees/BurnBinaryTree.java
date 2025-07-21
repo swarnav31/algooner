@@ -23,6 +23,7 @@ public class BurnBinaryTree {
             int size = q.size();
             while (size-- > 0) {
                 TreeNode node = q.poll();
+                assert node != null;
                 if (node.val == start) {
                     sNode = node;
                 }
@@ -38,6 +39,7 @@ public class BurnBinaryTree {
         }
 
         Set<Integer> vis = new HashSet<>();
+        assert sNode != null;
         vis.add(sNode.val);
         int time = -1;
         q.add(sNode);
